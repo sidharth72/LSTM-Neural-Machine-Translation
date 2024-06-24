@@ -1,0 +1,2 @@
+../model/model_20240624_084531.keras
+../model/LSTM_Translator.keras

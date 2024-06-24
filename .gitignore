@@ -1,0 +1,5 @@
+model/LSTM_Translator.keras
+model/model_20240624_082359.keras
+model/model_20240624_084531.keras
+data/dataset.npz
+data/Hindi_English_Truncated_Corpus (1).csv
