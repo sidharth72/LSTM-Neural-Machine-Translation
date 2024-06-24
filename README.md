@@ -33,6 +33,10 @@ The results are good but not great on several arbitrarily chosen translations. B
 - `models/`: Directory to store results and model checkpoints.
 
 
+# Pretrained Models and Dataset
+
+Drive Link: https://drive.google.com/drive/folders/1AfFfdkYNgtN6zQf1eIhYKLn8VWMBdCtw?usp=drive_link
+
 ## Prerequisites
 
 Ensure you have the following libraries installed:
