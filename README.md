@@ -19,6 +19,7 @@ The model is trained on a dataset containing 100,000 pairs of English and Hindi 
 
 The results are good but not great on several arbitrarily chosen translations. Below are some examples:
 
-![image](https://github.com/sidharth72/Neural-Machine-Translation/assets/74226199/29390c22-2e3d-4e81-b43c-1affd9959e03)
+![image](https://github.com/sidharth72/LSTM-Neural-Machine-Translation/assets/74226199/fa454746-d4d3-45de-b486-69cab5d3c58c)
+
 
 
