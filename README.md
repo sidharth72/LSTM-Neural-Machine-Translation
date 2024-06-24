@@ -21,5 +21,61 @@ The results are good but not great on several arbitrarily chosen translations. B
 
 ![image](https://github.com/sidharth72/LSTM-Neural-Machine-Translation/assets/74226199/fa454746-d4d3-45de-b486-69cab5d3c58c)
 
+## Repository Structure
 
+- `data/`: Contains dataset and vocabulary files.
+- `src/`: Source code for the model implementation.
+  - `model.py`: LSTM implementation.
+  - `preprocess.py`: Script for performing data preprocessing.
+  - `train.py`: Script for training the model.
+  - `translate.py`: Script for translating sentences using the trained model.
+- `notebooks/`: Jupyter notebooks for data exploration and model evaluation.
+- `models/`: Directory to store results and model checkpoints.
 
+## How to Run
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/sidharth72/LSTM-Neural-Machine-Translation.git
+    cd LSTM-Neural-Machine-Translation
+    ```
+
+2. **Navigate to the source directory:**
+    ```bash
+    cd src
+    ```
+
+3. **Upload your dataset:**
+   Place your CSV dataset containing the source (`src`) and target (`tgt`) sentences in the `data/` folder. The dataset should only contain these two columns.
+
+4. **Train the model:**
+    ```bash
+    python train.py
+    ```
+    Follow the prompts:
+    - Enter your CSV file path containing `src` and `tgt` sentences: `../data/dataset.csv`
+    - Enter the number of steps to train (Recommended: 10 - 20): `10`
+
+   Training will start.
+
+5. **Evaluate the model:**
+    ```bash
+    python translate.py
+    ```
+    This script will use the most recently trained model for translation.
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss any changes or improvements.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to the open-source community for providing the resources and tools that made this project possible.
+
+---
+
+Feel free to reach out with any questions or feedback.
