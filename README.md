@@ -68,10 +68,6 @@ The results are good but not great on several arbitrarily chosen translations. B
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes or improvements.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 Special thanks to the open-source community for providing the resources and tools that made this project possible.
