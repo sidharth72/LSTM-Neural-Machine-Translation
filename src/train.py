@@ -61,8 +61,6 @@ def save_model(model, model_dir: str = '../model'):
 # ====================================================================================================
 
 csv_path = input("Enter your CSV file path containing src and tgt sentences:")
-src_column_name = input("Enter the column name of the src:")
-tgt_column_name = input("Enter the column name of tgt:")
 epochs = int(input("Enter the number of steps to train (Recommended: 10 - 20):"))
 
 
@@ -71,9 +69,6 @@ try:
 
     encoder_inputs, decoder_targets, decoder_lables, src_vocab, tgt_vocab = preprocess(
         csv_path=csv_path,
-        src_column_name=src_column_name,
-        tgt_column_name=tgt_column_name
-
     )
 except:
     raise Exception("Something wrong with the dataset, ensure the dataset is in the correct format")

@@ -3,13 +3,16 @@ import pandas as pd
 import re
 
 
-def preprocess(csv_path, src_column_name, tgt_column_name):
+def preprocess(csv_path):
 
     sequence_length = 18
 
     df = pd.read_csv(csv_path)
 
-    # Removing nll columns
+    src_column_name = df.columns[0]
+    tgt_column_name = df.columns[1]
+
+    # Removing null columns
     if df.isnull().values.any():
         df = df.dropna()
 
