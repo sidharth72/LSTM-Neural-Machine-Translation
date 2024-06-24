@@ -32,6 +32,21 @@ The results are good but not great on several arbitrarily chosen translations. B
 - `notebooks/`: Jupyter notebooks for data exploration and model evaluation.
 - `models/`: Directory to store results and model checkpoints.
 
+
+## Prerequisites
+
+Ensure you have the following libraries installed:
+- TensorFlow
+- NumPy
+- Pandas
+- Keras
+
+You can install the required libraries using pip:
+
+```bash
+pip install tensorflow numpy pandas keras
+```
+
 ## How to Run
 
 1. **Clone the repository:**
