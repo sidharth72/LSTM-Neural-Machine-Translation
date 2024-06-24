@@ -1,4 +1,4 @@
-# LSTM Neural Machine Translation - En to Hi
+# LSTM for Neural Machine Translation - En to Hi
 
 This repository contains an implementation of an LSTM encoder-decoder model with an attention mechanism for translating sentences from English to Hindi. The attention mechanism enhances the model's ability to focus on the important parts of the sequence during translation, leading to more accurate results.
 
